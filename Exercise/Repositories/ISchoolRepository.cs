@@ -12,7 +12,6 @@ namespace StoredProcDemo.Repositories
     /// </summary>
     internal interface ISchoolRepository
     {
-        Task<School> GetSchool(int id);
         Task<decimal> GetSchoolRevenue(int id);
     }
 }
