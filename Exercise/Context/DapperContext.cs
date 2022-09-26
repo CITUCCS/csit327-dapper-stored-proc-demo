@@ -1,7 +1,7 @@
 ﻿using Microsoft.Data.SqlClient;
 using System.Data;
 
-namespace DapperExer2.Context
+namespace StoredProcDemo.Context
 {
     /// <summary>
     /// Wrapper class for database context.

@@ -8,7 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DapperExer3", "Exercise\DapperExer3.csproj", "{1078D718-0F92-44D4-BFE1-86A0BED014E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StoredProcDemo", "Exercise\StoredProcDemo.csproj", "{1078D718-0F92-44D4-BFE1-86A0BED014E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

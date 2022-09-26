@@ -1,11 +1,11 @@
-﻿using DapperExer2.Models;
+﻿using StoredProcDemo.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DapperExer2.Repositories
+namespace StoredProcDemo.Repositories
 {
     /// <summary>
     /// Interface for school repository
@@ -13,6 +13,6 @@ namespace DapperExer2.Repositories
     internal interface ISchoolRepository
     {
         Task<School> GetSchool(int id);
-        Task<IEnumerable<School>> GetAllSchools();
+        Task<decimal> GetSchoolRevenue(int id);
     }
 }

@@ -1,9 +1,18 @@
-﻿using DapperExer2.Context;
-using DapperExer2.Models;
+﻿
+using StoredProcDemo.Models;
 
-namespace DapperExer2.Repositories
+namespace StoredProcDemo.Repositories
 {
     internal class SchoolRepository : ISchoolRepository
     {
+        public Task<decimal> GetSchoolRevenue(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<School> GetSchool(int id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

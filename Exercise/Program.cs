@@ -1,4 +1,4 @@
-﻿using DapperExer2.Repositories;
+﻿using StoredProcDemo.Repositories;
 
 internal class Program
 {
